@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - app.py
+      - README.md 
 
 jobs:
   build:
